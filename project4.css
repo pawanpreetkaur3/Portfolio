@@ -89,6 +89,27 @@
     background-color: #45a9bb;
 }
 
+.header-nav{
+    list-style: none;
+	display: flex;
+	padding: 0;
+}
+
+.header-nav li{
+	border-right: 1px solid #3836b8;
+	padding-right: 8px;
+	padding-left: 8px;
+	font-size: 22px;
+}
+
+.header-nav li a:hover{
+	color: #FFF000;
+}
+
+.header-nav li:last-of-type{
+	border-style: none;
+}
+
 .submit,
 .clear {
 	height: 36px;
